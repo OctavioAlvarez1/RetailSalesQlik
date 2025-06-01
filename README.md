@@ -2,7 +2,7 @@
 
 This project showcases a fully interactive dashboard built in **Qlik Sense Cloud** to analyze retail sales data in some of the principal states **in the USA** like **Alabama**,**Florida**,**Georgia**, **Mississipi** and **South Carolina**. It provides key insights into sales performance, customer behavior, and product trends.
 
-![Dashboard Overview](images/dashboard.png)
+![Dashboard Overview](Images/dashboard.png)
 
 ## 📊 Project Overview
 
