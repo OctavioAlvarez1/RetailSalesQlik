@@ -2,6 +2,7 @@
 
 This project showcases a fully interactive dashboard built in **Qlik Sense Cloud** to analyze retail sales data in some of the principal states **in the USA** like **Alabama**,**Florida**,**Georgia**, **Mississipi** and **South Carolina**. It provides key insights into sales performance, customer behavior, and product trends.
 
+
 ![Dashboard Overview](Images/dashboard.png)
 
 ## 📊 Project Overview
@@ -62,3 +63,39 @@ The dataset used is [`Retail Transactions.csv`](./Retail%20Transactions.csv), wh
        Rating
    FROM [lib://Retail Transactions.csv]
    (txt, codepage is 28591, embedded labels, delimiter is ',', msq);
+
+
+4. **Visualization Building**
+
+   - Used KPI objects, bar charts, pie charts, line charts, and filter panes.
+   - Each visualization was linked through associative fields for maximum interactivity.
+  
+5. **Insights**
+
+
+   Based on the final dashboard view, the following **key insights** were identified:
+
+   - **Overall Order Performance**
+     - The **Current Year MTD Order Amount** reached **$9.66M**, showing strong recent performance.
+     - **Year-over-year growth** is evident with **CYYTD ($3.72M)** exceeding **PYTD ($2.24M)**.
+
+   - **Stable Discount Strategy**
+     - Both **CY Avg Discount** and **PY Avg Discount** remain at **29.8%**, indicating a **consistent pricing policy**.
+
+   - **Sales Trends by Month**
+     - Sales peaked in **December and July**, likely due to seasonal effects or promotions.
+     - **Rewards members** consistently spend more, emphasizing the **value of loyalty programs**.
+
+   - **Geographic Distribution**
+     - **Florida** dominates sales with **55.7%** of total order amount.
+     - Other key states include **Georgia (19.2%)**, **Alabama (14%)**, **Mississippi**, and **South Carolina**.
+     - The **map view** shows sales activity heavily concentrated in the **U.S.**, with **some international presence**.
+
+   - **Order and Discount Analysis by State**
+     - **Florida** leads in both total and average order value.
+     - **Alabama** shows the **highest discount average (20.5%)**, likely a strategy to boost sales in a **lower-volume state**.
+
+   - **Top Transactions**
+     - Large transactions occurred in **Alabama**, with individual purchases over **$90**, suggesting **bulk orders or effective promotions**.
+
+   These insights provide a strong foundation for further **business decision-making**, especially in areas of **geographic focus**, **discount strategies**, and **customer segmentation**.
